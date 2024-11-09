@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.views.sobre"
+             Title="sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="MidnightBlue">
+    
+    <VerticalStackLayout>
+
+        <Label 
+            Text="Sobre o Programa"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontFamily="Rajdhani"
+            FontSize="Header"/>
+
+        <Frame Padding="10" BackgroundColor="DarkBlue">
+            <VerticalStackLayout>
+                
+                <Label Text="Desenvolvedor: "
+                       FontFamily="Rajdhani"/>
+
+                    <Label Text="Ygor Morgado"
+                           Padding="10"
+                           FontFamily="Rajdhani"/>
+
+                    <Label Text="Data do Desenvolvimento:"
+                           FontFamily="Rajdhani"/>
+
+                <Label Text="01/11/2024"
+                       FontFamily="Rajdhani"/>
+
+                <Label Text="Versão: 1.0" Padding="10"
+                       FontFamily="Rajdhani"/>
+
+            </VerticalStackLayout>
+        </Frame>
+
+        <Label Text="Este programa foi desenvolvido para a atividade da Agenda 13 do Curso Técnico em Desenvolvimento de Sistemas"
+               FontFamily="Rajdhani"
+               FontSize="Subtitle"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAutoScalingEnabled="True"/>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
